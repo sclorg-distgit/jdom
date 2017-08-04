@@ -33,7 +33,7 @@
 
 Name:           %{?scl_prefix}jdom
 Version:        1.1.3
-Release:        13.1%{?dist}
+Release:        13.2%{?dist}
 Epoch:          0
 Summary:        Java alternative to DOM and SAX
 License:        ASL 1.1
@@ -106,6 +106,9 @@ cp -pr samples $RPM_BUILD_ROOT%{_datadir}/%{pkg_name}
 %license LICENSE.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 0:1.1.3-13.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 0:1.1.3-13.1
 - Automated package import and SCL-ization
 
